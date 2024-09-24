@@ -1,0 +1,163 @@
+2024-09-24T19:59:46.917Z pw:api navigating to "https://shop.kajgana.com/", waiting until "load"
+2024-09-24T19:59:47.620Z pw:api   "commit" event fired
+2024-09-24T19:59:47.622Z pw:api   navigated to "https://shop.kajgana.com/"
+2024-09-24T19:59:49.085Z pw:api   navigated to "https://td.doubleclick.net/td/ga/rul?tid=G-1TNRCKQ30V&gacid=1163641481.1727207989&gtm=45je49j0v9124281512za200&dma=0&gcd=13l3l3l3l1l1&npa=0&pscdl=noapi&aip=1&fledge=1&frm=0&tag_exp=101671034&z=500042645"
+2024-09-24T19:59:52.217Z pw:api   "domcontentloaded" event fired
+2024-09-24T19:59:52.243Z pw:api   "load" event fired
+2024-09-24T19:59:52.277Z pw:api waiting for GetByRole(AriaRole.Button, new() { Name = "User Icon" })
+2024-09-24T19:59:52.657Z pw:api   locator resolved to <button name="User Icon" aria-label="User Icon" class="btn-unstyle tv-myaccount-btn tv-myaccount-btn-desktop">ÔÇª</button>
+2024-09-24T19:59:52.661Z pw:api attempting hover action
+2024-09-24T19:59:52.662Z pw:api   waiting for element to be visible and stable
+2024-09-24T19:59:53.597Z pw:api   element is visible and stable
+2024-09-24T19:59:53.597Z pw:api   scrolling into view if needed
+2024-09-24T19:59:53.673Z pw:api   done scrolling
+2024-09-24T19:59:53.707Z pw:api   performing hover action
+2024-09-24T19:59:53.738Z pw:api   hover action done
+2024-09-24T19:59:53.738Z pw:api   waiting for scheduled navigations to finish
+2024-09-24T19:59:53.738Z pw:api   navigations have finished
+2024-09-24T19:59:53.758Z pw:api waiting for Locator(".tvhedaer-sign-span")
+2024-09-24T19:59:53.782Z pw:api   locator resolved to <span class="tvhedaer-sign-span">ðØð░Ðÿð░ð▓ð© ÐüðÁ</span>
+2024-09-24T19:59:53.787Z pw:api attempting click action
+2024-09-24T19:59:53.788Z pw:api   waiting for element to be visible, enabled and stable
+2024-09-24T19:59:53.822Z pw:api   element is not stable
+2024-09-24T19:59:53.822Z pw:api retrying click action, attempt #1
+2024-09-24T19:59:53.822Z pw:api   waiting for element to be visible, enabled and stable
+2024-09-24T19:59:53.892Z pw:api   element is not stable
+2024-09-24T19:59:53.892Z pw:api retrying click action, attempt #2
+2024-09-24T19:59:53.892Z pw:api   waiting 20ms
+2024-09-24T19:59:53.924Z pw:api   waiting for element to be visible, enabled and stable
+2024-09-24T19:59:53.956Z pw:api   element is not stable
+2024-09-24T19:59:53.956Z pw:api retrying click action, attempt #3
+2024-09-24T19:59:53.956Z pw:api   waiting 100ms
+2024-09-24T19:59:54.066Z pw:api   waiting for element to be visible, enabled and stable
+2024-09-24T19:59:54.103Z pw:api   element is not visible
+2024-09-24T19:59:54.103Z pw:api retrying click action, attempt #4
+2024-09-24T19:59:54.103Z pw:api   waiting 100ms
+2024-09-24T19:59:54.220Z pw:api   waiting for element to be visible, enabled and stable
+2024-09-24T19:59:54.253Z pw:api   element is not visible
+2024-09-24T19:59:54.254Z pw:api retrying click action, attempt #5
+2024-09-24T19:59:54.254Z pw:api   waiting 500ms
+2024-09-24T19:59:54.762Z pw:api   waiting for element to be visible, enabled and stable
+2024-09-24T19:59:54.768Z pw:api   element is not visible
+2024-09-24T19:59:54.768Z pw:api retrying click action, attempt #6
+2024-09-24T19:59:54.768Z pw:api   waiting 500ms
+2024-09-24T19:59:55.272Z pw:api   waiting for element to be visible, enabled and stable
+2024-09-24T19:59:55.304Z pw:api   element is not visible
+2024-09-24T19:59:55.304Z pw:api retrying click action, attempt #7
+2024-09-24T19:59:55.304Z pw:api   waiting 500ms
+2024-09-24T19:59:55.811Z pw:api   waiting for element to be visible, enabled and stable
+2024-09-24T19:59:55.820Z pw:api   element is not visible
+2024-09-24T19:59:55.820Z pw:api retrying click action, attempt #8
+2024-09-24T19:59:55.820Z pw:api   waiting 500ms
+2024-09-24T19:59:55.874Z pw:api   "networkidle" event fired
+2024-09-24T19:59:56.338Z pw:api   waiting for element to be visible, enabled and stable
+2024-09-24T19:59:56.351Z pw:api   element is not visible
+2024-09-24T19:59:56.351Z pw:api retrying click action, attempt #9
+2024-09-24T19:59:56.351Z pw:api   waiting 500ms
+2024-09-24T19:59:56.868Z pw:api   waiting for element to be visible, enabled and stable
+2024-09-24T19:59:56.886Z pw:api   element is not visible
+2024-09-24T19:59:56.886Z pw:api retrying click action, attempt #10
+2024-09-24T19:59:56.887Z pw:api   waiting 500ms
+2024-09-24T19:59:57.394Z pw:api   waiting for element to be visible, enabled and stable
+2024-09-24T19:59:57.403Z pw:api   element is not visible
+2024-09-24T19:59:57.403Z pw:api retrying click action, attempt #11
+2024-09-24T19:59:57.403Z pw:api   waiting 500ms
+2024-09-24T19:59:57.909Z pw:api   waiting for element to be visible, enabled and stable
+2024-09-24T19:59:57.939Z pw:api   element is not visible
+2024-09-24T19:59:57.939Z pw:api retrying click action, attempt #12
+2024-09-24T19:59:57.940Z pw:api   waiting 500ms
+2024-09-24T19:59:58.460Z pw:api   waiting for element to be visible, enabled and stable
+2024-09-24T19:59:58.470Z pw:api   element is not visible
+2024-09-24T19:59:58.470Z pw:api retrying click action, attempt #13
+2024-09-24T19:59:58.470Z pw:api   waiting 500ms
+2024-09-24T19:59:59.108Z pw:api   waiting for element to be visible, enabled and stable
+2024-09-24T19:59:59.139Z pw:api   element is not visible
+2024-09-24T19:59:59.139Z pw:api retrying click action, attempt #14
+2024-09-24T19:59:59.139Z pw:api   waiting 500ms
+2024-09-24T19:59:59.653Z pw:api   waiting for element to be visible, enabled and stable
+2024-09-24T19:59:59.687Z pw:api   element is not visible
+2024-09-24T19:59:59.687Z pw:api retrying click action, attempt #15
+2024-09-24T19:59:59.687Z pw:api   waiting 500ms
+2024-09-24T20:00:00.202Z pw:api   waiting for element to be visible, enabled and stable
+2024-09-24T20:00:00.227Z pw:api   navigated to "about:blank"
+2024-09-24T20:00:00.262Z pw:api   element is not visible
+2024-09-24T20:00:00.263Z pw:api retrying click action, attempt #16
+2024-09-24T20:00:00.263Z pw:api   waiting 500ms
+2024-09-24T20:00:00.496Z pw:api   navigated to "https://www.facebook.com/v17.0/plugins/customerchat.php?app_id=&attribution=biz_inbox&channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df5260f4d48a8d11f2%26domain%3Dshop.kajgana.com%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fshop.kajgana.com%252Ffcbf341e063a5aafc%26relation%3Dparent.parent&container_width=1265&current_url=https%3A%2F%2Fshop.kajgana.com%2F&is_loaded_by_facade=true&locale=en_US&log_id=b28c0fb1-3e70-40bc-8879-afb7b47753f3&page_id=102171515087317&request_time=1727208000212&sdk=joey"
+2024-09-24T20:00:00.775Z pw:api   waiting for element to be visible, enabled and stable
+2024-09-24T20:00:00.803Z pw:api   element is not visible
+2024-09-24T20:00:00.803Z pw:api retrying click action, attempt #17
+2024-09-24T20:00:00.803Z pw:api   waiting 500ms
+2024-09-24T20:00:01.326Z pw:api   waiting for element to be visible, enabled and stable
+2024-09-24T20:00:01.769Z pw:api   "networkidle" event fired
+2024-09-24T20:00:03.073Z pw:api   element is not visible
+2024-09-24T20:00:03.073Z pw:api retrying click action, attempt #18
+2024-09-24T20:00:03.073Z pw:api   waiting 500ms
+2024-09-24T20:00:03.597Z pw:api   waiting for element to be visible, enabled and stable
+2024-09-24T20:00:05.091Z pw:api   element is not visible
+2024-09-24T20:00:05.091Z pw:api retrying click action, attempt #19
+2024-09-24T20:00:05.091Z pw:api   waiting 500ms
+2024-09-24T20:00:05.613Z pw:api   waiting for element to be visible, enabled and stable
+2024-09-24T20:00:07.122Z pw:api   element is not visible
+2024-09-24T20:00:07.122Z pw:api retrying click action, attempt #20
+2024-09-24T20:00:07.122Z pw:api   waiting 500ms
+2024-09-24T20:00:07.656Z pw:api   waiting for element to be visible, enabled and stable
+2024-09-24T20:00:09.141Z pw:api   element is not visible
+2024-09-24T20:00:09.141Z pw:api retrying click action, attempt #21
+2024-09-24T20:00:09.141Z pw:api   waiting 500ms
+2024-09-24T20:00:09.669Z pw:api   waiting for element to be visible, enabled and stable
+2024-09-24T20:00:09.710Z pw:api   element is not visible
+2024-09-24T20:00:09.710Z pw:api retrying click action, attempt #22
+2024-09-24T20:00:09.710Z pw:api   waiting 500ms
+2024-09-24T20:00:10.219Z pw:api   waiting for element to be visible, enabled and stable
+2024-09-24T20:00:10.254Z pw:api   element is not visible
+2024-09-24T20:00:10.254Z pw:api retrying click action, attempt #23
+2024-09-24T20:00:10.254Z pw:api   waiting 500ms
+2024-09-24T20:00:10.764Z pw:api   waiting for element to be visible, enabled and stable
+2024-09-24T20:00:10.786Z pw:api   element is not visible
+2024-09-24T20:00:10.786Z pw:api retrying click action, attempt #24
+2024-09-24T20:00:10.787Z pw:api   waiting 500ms
+2024-09-24T20:00:11.296Z pw:api   waiting for element to be visible, enabled and stable
+2024-09-24T20:00:11.319Z pw:api   element is not visible
+2024-09-24T20:00:11.319Z pw:api retrying click action, attempt #25
+2024-09-24T20:00:11.319Z pw:api   waiting 500ms
+2024-09-24T20:00:11.834Z pw:api   waiting for element to be visible, enabled and stable
+2024-09-24T20:00:11.853Z pw:api   element is not visible
+2024-09-24T20:00:11.853Z pw:api retrying click action, attempt #26
+2024-09-24T20:00:11.853Z pw:api   waiting 500ms
+2024-09-24T20:00:12.416Z pw:api   waiting for element to be visible, enabled and stable
+2024-09-24T20:00:12.436Z pw:api   element is not visible
+2024-09-24T20:00:12.436Z pw:api retrying click action, attempt #27
+2024-09-24T20:00:12.436Z pw:api   waiting 500ms
+2024-09-24T20:00:12.970Z pw:api   waiting for element to be visible, enabled and stable
+2024-09-24T20:00:13.003Z pw:api   element is not visible
+2024-09-24T20:00:13.003Z pw:api retrying click action, attempt #28
+2024-09-24T20:00:13.003Z pw:api   waiting 500ms
+2024-09-24T20:00:13.515Z pw:api   waiting for element to be visible, enabled and stable
+2024-09-24T20:00:13.553Z pw:api   element is not visible
+2024-09-24T20:00:13.553Z pw:api retrying click action, attempt #29
+2024-09-24T20:00:13.553Z pw:api   waiting 500ms
+2024-09-24T20:00:14.073Z pw:api   waiting for element to be visible, enabled and stable
+2024-09-24T20:00:14.086Z pw:api   element is not visible
+2024-09-24T20:00:14.086Z pw:api retrying click action, attempt #30
+2024-09-24T20:00:14.086Z pw:api   waiting 500ms
+2024-09-24T20:00:14.598Z pw:api   waiting for element to be visible, enabled and stable
+2024-09-24T20:00:14.619Z pw:api   element is not visible
+2024-09-24T20:00:14.619Z pw:api retrying click action, attempt #31
+2024-09-24T20:00:14.619Z pw:api   waiting 500ms
+2024-09-24T20:00:15.142Z pw:api   waiting for element to be visible, enabled and stable
+2024-09-24T20:00:15.156Z pw:api   element is not visible
+2024-09-24T20:00:15.157Z pw:api retrying click action, attempt #32
+2024-09-24T20:00:15.157Z pw:api   waiting 500ms
+2024-09-24T20:00:15.663Z pw:api   waiting for element to be visible, enabled and stable
+2024-09-24T20:00:15.687Z pw:api   element is not visible
+2024-09-24T20:00:15.687Z pw:api retrying click action, attempt #33
+2024-09-24T20:00:15.688Z pw:api   waiting 500ms
+2024-09-24T20:00:16.196Z pw:api   waiting for element to be visible, enabled and stable
+2024-09-24T20:00:16.218Z pw:api   element is not visible
+2024-09-24T20:00:16.218Z pw:api retrying click action, attempt #34
+2024-09-24T20:00:16.219Z pw:api   waiting 500ms
+2024-09-24T20:00:16.740Z pw:api   waiting for element to be visible, enabled and stable
+2024-09-24T20:00:16.754Z pw:api   element is not visible
+2024-09-24T20:00:16.755Z pw:api retrying click action, attempt #35
+2024-09-24T20:00:16.755Z pw:api   waiting 500ms
