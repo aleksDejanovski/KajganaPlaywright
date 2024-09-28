@@ -84,7 +84,20 @@ public class TestingKajgana : PageTest
         await Page.GetByRole(AriaRole.Button, new() { Name = "Додај во кошничка" }).ClickAsync();
         await Expect(Page.GetByRole(AriaRole.Heading, new() { Name = "Кошничка" })).ToBeVisibleAsync();
 
-        }
+    }
+    [Test]
+    public async Task LoginWithInvalidCredentials()
+    {
+
+        await Page.GetByRole(AriaRole.Button, new() { Name = "User Icon" }).HoverAsync();
+        await Page.ClickAsync(".tvhedaer-sign-span");
+        await Expect(Page.GetByRole(AriaRole.Heading, new() { Name = "Најавете се на вашата сметка" })).ToBeVisibleAsync();
+        await Page.FillAsync("#email", "test@yahoo.com");
+        await Page.FillAsync("#field-password", "Atest12est");
+        await Page.ClickAsync("#submit-login");
+        await Expect(Page.GetByText("Неуспешна најава.")).ToBeVisibleAsync();
+
+    }
 
 
 }
