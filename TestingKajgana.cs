@@ -5,21 +5,23 @@ using Microsoft.Playwright;
 using Microsoft.Playwright.NUnit;
 using NUnit.Framework;
 using NUnit.Framework.Constraints;
+using PlaywrightTest.Pages;
 
-namespace PlaywrightTests;
+namespace PlaywrightTest;
 
-[Parallelizable(ParallelScope.Self)]
+
+
 [TestFixture]
 public class TestingKajgana : PageTest
 {
+    private DashBoardPage DashBoardPage;
+    private LoginPage LoginPage;
+
     [SetUp]
     public async Task SetUp()
     {
-        var browser = await Playwright.Chromium.LaunchAsync(new BrowserTypeLaunchOptions
-        {
-            Headless = false
-        });
-        
+        DashBoardPage = new DashBoardPage(Page);
+        LoginPage = new LoginPage(Page);
         await Page.GotoAsync("https://shop.kajgana.com/");
     }
     [Test]
@@ -69,6 +71,7 @@ public class TestingKajgana : PageTest
     [Test]
     public async Task LoginAndAddToCart()
     {
+       
 
         await Page.GetByRole(AriaRole.Button, new() { Name = "User Icon" }).HoverAsync();
         await Page.ClickAsync(".tvhedaer-sign-span");
@@ -96,6 +99,16 @@ public class TestingKajgana : PageTest
         await Page.FillAsync("#field-password", "Atest12est");
         await Page.ClickAsync("#submit-login");
         await Expect(Page.GetByText("Неуспешна најава.")).ToBeVisibleAsync();
+
+    }
+    [Test]
+    public async Task LoginWithValidCredentialsPOM()
+    {
+        
+        await DashBoardPage.ClickLoginButton();
+        Assert.True(await DashBoardPage.AreWeOnLoginPage());
+        await LoginPage.SubmitLogin("dejanovski_a@yahoo.com", "aA123456789");
+        Assert.True(await LoginPage.IfUserIsLogedIn());
 
     }
 

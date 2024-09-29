@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\AcoBradica\\source\\repos\\PlaywrightTest\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3E2D73BB-CFF2-42A4-8BCA-28A0E2CDBF21}|PlaywrightTest.csproj|c:\\users\\acobradica\\source\\repos\\playwrighttest\\pages\\dashboardpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E2D73BB-CFF2-42A4-8BCA-28A0E2CDBF21}|PlaywrightTest.csproj|solutionrelative:pages\\dashboardpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E2D73BB-CFF2-42A4-8BCA-28A0E2CDBF21}|PlaywrightTest.csproj|c:\\users\\acobradica\\source\\repos\\playwrighttest\\pages\\loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E2D73BB-CFF2-42A4-8BCA-28A0E2CDBF21}|PlaywrightTest.csproj|solutionrelative:pages\\loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3E2D73BB-CFF2-42A4-8BCA-28A0E2CDBF21}|PlaywrightTest.csproj|c:\\users\\acobradica\\source\\repos\\playwrighttest\\testingkajgana.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3E2D73BB-CFF2-42A4-8BCA-28A0E2CDBF21}|PlaywrightTest.csproj|solutionrelative:testingkajgana.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -25,33 +33,59 @@
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "test.runsettings",
               "DocumentMoniker": "C:\\Users\\AcoBradica\\source\\repos\\PlaywrightTest\\test.runsettings",
               "RelativeDocumentMoniker": "test.runsettings",
               "ToolTip": "C:\\Users\\AcoBradica\\source\\repos\\PlaywrightTest\\test.runsettings",
               "RelativeToolTip": "test.runsettings",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAgwBMAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-09-23T20:54:31.599Z"
+              "WhenOpened": "2024-09-29T09:26:59.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginPage.cs",
+              "DocumentMoniker": "C:\\Users\\AcoBradica\\source\\repos\\PlaywrightTest\\Pages\\LoginPage.cs",
+              "RelativeDocumentMoniker": "Pages\\LoginPage.cs",
+              "ToolTip": "C:\\Users\\AcoBradica\\source\\repos\\PlaywrightTest\\Pages\\LoginPage.cs",
+              "RelativeToolTip": "Pages\\LoginPage.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T08:49:44.448Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "DashBoardPage.cs",
+              "DocumentMoniker": "C:\\Users\\AcoBradica\\source\\repos\\PlaywrightTest\\Pages\\DashBoardPage.cs",
+              "RelativeDocumentMoniker": "Pages\\DashBoardPage.cs",
+              "ToolTip": "C:\\Users\\AcoBradica\\source\\repos\\PlaywrightTest\\Pages\\DashBoardPage.cs",
+              "RelativeToolTip": "Pages\\DashBoardPage.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T08:49:29.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "TestingKajgana.cs",
               "DocumentMoniker": "C:\\Users\\AcoBradica\\source\\repos\\PlaywrightTest\\TestingKajgana.cs",
               "RelativeDocumentMoniker": "TestingKajgana.cs",
               "ToolTip": "C:\\Users\\AcoBradica\\source\\repos\\PlaywrightTest\\TestingKajgana.cs",
               "RelativeToolTip": "TestingKajgana.cs",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAAAFgAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAAAG8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-18T17:42:05.28Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
             }
           ]
         }
