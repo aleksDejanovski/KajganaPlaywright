@@ -13,15 +13,16 @@ namespace PlaywrightTest.Pages
 
         public DashBoardPage(IPage Page)
         {
-             _page = Page   ;
+             _page = Page;
         }
 
         private ILocator UserIcon => _page.GetByRole(AriaRole.Button, new() { Name = "User Icon" });
         private ILocator LoginButton => _page.GetByTitle("Најавете се на вашата сметка");
         private ILocator LoginText => _page.GetByRole(AriaRole.Heading, new() { Name = "Најавете се на вашата сметка" });
 
+        private ILocator PetShopButton => _page.Locator("#tv-menu-horizontal").GetByRole(AriaRole.Link, new() { Name = "Пет шоп" });
 
-
+      
 
 
         public async Task ClickLoginButton()
@@ -32,6 +33,11 @@ namespace PlaywrightTest.Pages
 
         public async Task<bool> AreWeOnLoginPage() => await LoginText.IsVisibleAsync();
 
+        public async Task ClickPetShopButton()
+        {
+            await PetShopButton.ClickAsync();
+        }
 
+       
     }
 }

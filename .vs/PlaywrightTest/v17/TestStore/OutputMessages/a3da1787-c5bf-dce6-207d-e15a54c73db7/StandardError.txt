@@ -1,0 +1,99 @@
+2024-09-29T13:34:05.404Z pw:api navigating to "https://shop.kajgana.com/", waiting until "load"
+2024-09-29T13:34:06.023Z pw:api   "commit" event fired
+2024-09-29T13:34:06.024Z pw:api   navigated to "https://shop.kajgana.com/"
+2024-09-29T13:34:07.664Z pw:api   navigated to "https://td.doubleclick.net/td/ga/rul?tid=G-1TNRCKQ30V&gacid=1715690803.1727616847&gtm=45je49p0v9124281512za200zb882102465&dma=0&gcd=13l3l3l3l1l1&npa=0&pscdl=noapi&aip=1&fledge=1&frm=0&tag_exp=101671035~101747727&z=949199969"
+2024-09-29T13:34:08.138Z pw:api   "domcontentloaded" event fired
+2024-09-29T13:34:08.166Z pw:api   "load" event fired
+2024-09-29T13:34:08.183Z pw:api waiting for GetByRole(AriaRole.Button, new() { Name = "User Icon" })
+2024-09-29T13:34:08.565Z pw:api   locator resolved to <button name="User Icon" aria-label="User Icon" class="btn-unstyle tv-myaccount-btn tv-myaccount-btn-desktop">ÔÇª</button>
+2024-09-29T13:34:08.568Z pw:api attempting hover action
+2024-09-29T13:34:08.569Z pw:api   waiting for element to be visible and stable
+2024-09-29T13:34:08.594Z pw:api   element is visible and stable
+2024-09-29T13:34:08.594Z pw:api   scrolling into view if needed
+2024-09-29T13:34:08.596Z pw:api   done scrolling
+2024-09-29T13:34:08.603Z pw:api   performing hover action
+2024-09-29T13:34:08.626Z pw:api   hover action done
+2024-09-29T13:34:08.626Z pw:api   waiting for scheduled navigations to finish
+2024-09-29T13:34:08.626Z pw:api   navigations have finished
+2024-09-29T13:34:08.641Z pw:api waiting for GetByTitle("ðØð░Ðÿð░ð▓ðÁÐéðÁ ÐüðÁ ð¢ð░ ð▓ð░Ðêð░Ðéð░ Ðüð╝ðÁÐéð║ð░")
+2024-09-29T13:34:08.661Z pw:api   locator resolved to <a rel="nofollow" class="tvhedaer-sign-btn" title="ðØð░Ðÿð░ð▓ðÁÐéðÁ ÐüðÁ ð¢ð░ ð▓ð░Ðêð░Ðéð░ Ðüð╝ðÁÐéð║ð░" href="https://shop.kajgana.com/moja-smetka">ÔÇª</a>
+2024-09-29T13:34:08.678Z pw:api attempting click action
+2024-09-29T13:34:08.678Z pw:api   waiting for element to be visible, enabled and stable
+2024-09-29T13:34:08.789Z pw:api   element is not stable
+2024-09-29T13:34:08.789Z pw:api retrying click action, attempt #1
+2024-09-29T13:34:08.789Z pw:api   waiting for element to be visible, enabled and stable
+2024-09-29T13:34:08.866Z pw:api   element is visible, enabled and stable
+2024-09-29T13:34:08.866Z pw:api   scrolling into view if needed
+2024-09-29T13:34:08.868Z pw:api   done scrolling
+2024-09-29T13:34:08.873Z pw:api   performing click action
+2024-09-29T13:34:08.961Z pw:api   click action done
+2024-09-29T13:34:08.961Z pw:api   waiting for scheduled navigations to finish
+2024-09-29T13:34:10.470Z pw:api   "commit" event fired
+2024-09-29T13:34:10.470Z pw:api   navigated to "https://shop.kajgana.com/najava?back=my-account"
+2024-09-29T13:34:10.470Z pw:api   navigated to "https://shop.kajgana.com/najava?back=my-account"
+2024-09-29T13:34:10.575Z pw:api   navigations have finished
+2024-09-29T13:34:10.583Z pw:api waiting for Locator("#email")
+2024-09-29T13:34:10.876Z pw:api   "domcontentloaded" event fired
+2024-09-29T13:34:11.025Z pw:api   locator resolved to <input value="" id="email" required="" name="email" type="email" class="form-control"/>
+2024-09-29T13:34:11.029Z pw:api   fill("dejanovski_a@yahoo.com")
+2024-09-29T13:34:11.029Z pw:api attempting fill action
+2024-09-29T13:34:11.029Z pw:api   waiting for element to be visible, enabled and editable
+2024-09-29T13:34:11.095Z pw:api   "load" event fired
+2024-09-29T13:34:11.105Z pw:api waiting for Locator("#field-password")
+2024-09-29T13:34:11.255Z pw:api   locator resolved to <input value="" required="" name="password" type="password" pattern=".{5,}" id="field-password" aria-label="ðøð¥ðÀð©ð¢ð║ð░" autocomplete="current-password" class="form-control js-child-focus js-visible-password"/>
+2024-09-29T13:34:11.260Z pw:api   fill("aA123456789")
+2024-09-29T13:34:11.260Z pw:api attempting fill action
+2024-09-29T13:34:11.260Z pw:api   waiting for element to be visible, enabled and editable
+2024-09-29T13:34:11.288Z pw:api waiting for Locator("#submit-login")
+2024-09-29T13:34:11.315Z pw:api   locator resolved to <button type="submit" id="submit-login" data-link-action="sign-in" class="tvall-inner-btn form-control-submit">ÔÇª</button>
+2024-09-29T13:34:11.318Z pw:api attempting click action
+2024-09-29T13:34:11.318Z pw:api   waiting for element to be visible, enabled and stable
+2024-09-29T13:34:11.344Z pw:api   element is visible, enabled and stable
+2024-09-29T13:34:11.344Z pw:api   scrolling into view if needed
+2024-09-29T13:34:11.345Z pw:api   done scrolling
+2024-09-29T13:34:11.351Z pw:api   <span class="cc-message" id="cookieconsent:desc">ÔÇª</span> from <div role="dialog" aria-live="polite" aria-label="cookieconsent" aria-describedby="cookieconsent:desc" class="cc-window cc-banner cc-type-info cc-theme-block cc-bottom cc-color-override--913269328 ">ÔÇª</div> subtree intercepts pointer events
+2024-09-29T13:34:11.351Z pw:api retrying click action, attempt #1
+2024-09-29T13:34:11.351Z pw:api   waiting for element to be visible, enabled and stable
+2024-09-29T13:34:11.377Z pw:api   element is visible, enabled and stable
+2024-09-29T13:34:11.377Z pw:api   scrolling into view if needed
+2024-09-29T13:34:11.379Z pw:api   done scrolling
+2024-09-29T13:34:11.385Z pw:api   <span class="cc-message" id="cookieconsent:desc">ÔÇª</span> from <div role="dialog" aria-live="polite" aria-label="cookieconsent" aria-describedby="cookieconsent:desc" class="cc-window cc-banner cc-type-info cc-theme-block cc-bottom cc-color-override--913269328 ">ÔÇª</div> subtree intercepts pointer events
+2024-09-29T13:34:11.385Z pw:api retrying click action, attempt #2
+2024-09-29T13:34:11.385Z pw:api   waiting 20ms
+2024-09-29T13:34:11.408Z pw:api   waiting for element to be visible, enabled and stable
+2024-09-29T13:34:11.428Z pw:api   element is visible, enabled and stable
+2024-09-29T13:34:11.428Z pw:api   scrolling into view if needed
+2024-09-29T13:34:11.432Z pw:api   done scrolling
+2024-09-29T13:34:11.442Z pw:api   performing click action
+2024-09-29T13:34:11.541Z pw:api   <input value="" required="" name="password" type="password" pattern=".{5,}" id="field-password" aria-label="ðøð¥ðÀð©ð¢ð║ð░" autocomplete="current-password" class="form-control js-child-focus js-visible-password"/> from <div>ÔÇª</div> subtree intercepts pointer events
+2024-09-29T13:34:11.541Z pw:api retrying click action, attempt #3
+2024-09-29T13:34:11.541Z pw:api   waiting 100ms
+2024-09-29T13:34:11.657Z pw:api   waiting for element to be visible, enabled and stable
+2024-09-29T13:34:11.678Z pw:api   element is visible, enabled and stable
+2024-09-29T13:34:11.678Z pw:api   scrolling into view if needed
+2024-09-29T13:34:11.682Z pw:api   done scrolling
+2024-09-29T13:34:11.688Z pw:api   performing click action
+2024-09-29T13:34:11.755Z pw:api   click action done
+2024-09-29T13:34:11.755Z pw:api   waiting for scheduled navigations to finish
+2024-09-29T13:34:12.477Z pw:api   "commit" event fired
+2024-09-29T13:34:12.478Z pw:api   navigated to "https://shop.kajgana.com/moja-smetka"
+2024-09-29T13:34:12.478Z pw:api   navigated to "https://shop.kajgana.com/moja-smetka"
+2024-09-29T13:34:12.514Z pw:api   navigations have finished
+2024-09-29T13:34:12.523Z pw:api   checking visibility of GetByText(" ace aceski")
+2024-09-29T13:34:12.688Z pw:api   "domcontentloaded" event fired
+2024-09-29T13:34:12.770Z pw:api waiting for Locator("#tv-menu-horizontal").GetByRole(AriaRole.Link, new() { Name = "ðƒðÁÐé Ðêð¥ð┐" })
+2024-09-29T13:34:12.788Z pw:api   "load" event fired
+2024-09-29T13:34:12.820Z pw:api   locator resolved to <a href="https://shop.kajgana.com/394-pet-shop">ÔÇª</a>
+2024-09-29T13:34:12.843Z pw:api attempting click action
+2024-09-29T13:34:12.843Z pw:api   waiting for element to be visible, enabled and stable
+2024-09-29T13:34:12.907Z pw:api   element is visible, enabled and stable
+2024-09-29T13:34:12.908Z pw:api   scrolling into view if needed
+2024-09-29T13:34:12.911Z pw:api   done scrolling
+2024-09-29T13:34:12.917Z pw:api   performing click action
+2024-09-29T13:34:12.958Z pw:api   click action done
+2024-09-29T13:34:12.958Z pw:api   waiting for scheduled navigations to finish
+2024-09-29T13:34:13.728Z pw:api   "commit" event fired
+2024-09-29T13:34:13.728Z pw:api   navigated to "https://shop.kajgana.com/394-pet-shop"
+2024-09-29T13:34:13.728Z pw:api   navigated to "https://shop.kajgana.com/394-pet-shop"
+2024-09-29T13:34:13.752Z pw:api   navigations have finished
+2024-09-29T13:34:13.759Z pw:api   checking visibility of GetByRole(AriaRole.Link, new() { Name = "¯óèðƒð¥ÐçðÁÐéð¢ð░" })

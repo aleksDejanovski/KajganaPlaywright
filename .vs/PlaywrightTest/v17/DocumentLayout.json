@@ -7,8 +7,16 @@
       "RelativeMoniker": "D:0:0:{3E2D73BB-CFF2-42A4-8BCA-28A0E2CDBF21}|PlaywrightTest.csproj|solutionrelative:testingkajgana.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{3E2D73BB-CFF2-42A4-8BCA-28A0E2CDBF21}|PlaywrightTest.csproj|c:\\users\\acobradica\\source\\repos\\playwrighttest\\pages\\petshoppage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E2D73BB-CFF2-42A4-8BCA-28A0E2CDBF21}|PlaywrightTest.csproj|solutionrelative:pages\\petshoppage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3E2D73BB-CFF2-42A4-8BCA-28A0E2CDBF21}|PlaywrightTest.csproj|c:\\users\\acobradica\\source\\repos\\playwrighttest\\pages\\loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3E2D73BB-CFF2-42A4-8BCA-28A0E2CDBF21}|PlaywrightTest.csproj|solutionrelative:pages\\loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E2D73BB-CFF2-42A4-8BCA-28A0E2CDBF21}|PlaywrightTest.csproj|c:\\users\\acobradica\\source\\repos\\playwrighttest\\pages\\cartpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E2D73BB-CFF2-42A4-8BCA-28A0E2CDBF21}|PlaywrightTest.csproj|solutionrelative:pages\\cartpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3E2D73BB-CFF2-42A4-8BCA-28A0E2CDBF21}|PlaywrightTest.csproj|c:\\users\\acobradica\\source\\repos\\playwrighttest\\pages\\dashboardpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,7 +42,37 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PetShopPage.cs",
+              "DocumentMoniker": "C:\\Users\\AcoBradica\\source\\repos\\PlaywrightTest\\Pages\\PetShopPage.cs",
+              "RelativeDocumentMoniker": "Pages\\PetShopPage.cs",
+              "ToolTip": "C:\\Users\\AcoBradica\\source\\repos\\PlaywrightTest\\Pages\\PetShopPage.cs",
+              "RelativeToolTip": "Pages\\PetShopPage.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAACUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T13:35:33.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "CartPage.cs",
+              "DocumentMoniker": "C:\\Users\\AcoBradica\\source\\repos\\PlaywrightTest\\Pages\\CartPage.cs",
+              "RelativeDocumentMoniker": "Pages\\CartPage.cs",
+              "ToolTip": "C:\\Users\\AcoBradica\\source\\repos\\PlaywrightTest\\Pages\\CartPage.cs",
+              "RelativeToolTip": "Pages\\CartPage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T13:15:11.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "test.runsettings",
               "DocumentMoniker": "C:\\Users\\AcoBradica\\source\\repos\\PlaywrightTest\\test.runsettings",
               "RelativeDocumentMoniker": "test.runsettings",
@@ -42,11 +80,12 @@
               "RelativeToolTip": "test.runsettings",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-09-29T09:26:59.633Z"
+              "WhenOpened": "2024-09-29T09:26:59.633Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "LoginPage.cs",
               "DocumentMoniker": "C:\\Users\\AcoBradica\\source\\repos\\PlaywrightTest\\Pages\\LoginPage.cs",
               "RelativeDocumentMoniker": "Pages\\LoginPage.cs",
@@ -59,13 +98,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "DashBoardPage.cs",
               "DocumentMoniker": "C:\\Users\\AcoBradica\\source\\repos\\PlaywrightTest\\Pages\\DashBoardPage.cs",
               "RelativeDocumentMoniker": "Pages\\DashBoardPage.cs",
               "ToolTip": "C:\\Users\\AcoBradica\\source\\repos\\PlaywrightTest\\Pages\\DashBoardPage.cs",
               "RelativeToolTip": "Pages\\DashBoardPage.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABMAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABgAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-29T08:49:29.583Z",
               "EditorCaption": ""
@@ -78,14 +117,10 @@
               "RelativeDocumentMoniker": "TestingKajgana.cs",
               "ToolTip": "C:\\Users\\AcoBradica\\source\\repos\\PlaywrightTest\\TestingKajgana.cs",
               "RelativeToolTip": "TestingKajgana.cs",
-              "ViewState": "AgIAAGEAAAAAAAAAAAAAAGQAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAAAIsAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-18T17:42:05.28Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
             }
           ]
         }

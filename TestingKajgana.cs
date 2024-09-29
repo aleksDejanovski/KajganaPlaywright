@@ -16,12 +16,16 @@ public class TestingKajgana : PageTest
 {
     private DashBoardPage DashBoardPage;
     private LoginPage LoginPage;
+    private PetShopPage PetShopPage;
+    private CartPage CartPage;
 
     [SetUp]
     public async Task SetUp()
     {
         DashBoardPage = new DashBoardPage(Page);
         LoginPage = new LoginPage(Page);
+        PetShopPage = new PetShopPage(Page);
+        CartPage = new CartPage(Page);
         await Page.GotoAsync("https://shop.kajgana.com/");
     }
     [Test]
@@ -120,6 +124,20 @@ public class TestingKajgana : PageTest
         Assert.True(await DashBoardPage.AreWeOnLoginPage());
         await LoginPage.SubmitLogin("test13ee3@yahoo.com", "Atest12ssa");
         Assert.True(await LoginPage.IfUserIsNotLogedIn());
+
+    }
+    [Test]
+    public async Task LoginAndAddToCartItemPOM()
+    {
+        await DashBoardPage.ClickLoginButton();
+        await LoginPage.SubmitLogin("dejanovski_a@yahoo.com", "aA123456789");
+        Assert.True(await LoginPage.IfUserIsLogedIn());
+        await DashBoardPage.ClickPetShopButton();
+        await PetShopPage.AreWeOnPetShopPage();
+        await PetShopPage.ClickPetShopItem();
+        Assert.True(await PetShopPage.IfItemIsOpened());
+        await PetShopPage.AddItemToCard();
+        await CartPage.ItemAddedToCartCheck();
 
     }
 
