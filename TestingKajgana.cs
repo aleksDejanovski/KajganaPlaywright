@@ -112,5 +112,15 @@ public class TestingKajgana : PageTest
 
     }
 
+    [Test]
+    public async Task LoginWithInvalidCredentialsPOM()
+    {
+
+        await DashBoardPage.ClickLoginButton();
+        Assert.True(await DashBoardPage.AreWeOnLoginPage());
+        await LoginPage.SubmitLogin("test13ee3@yahoo.com", "Atest12ssa");
+        Assert.True(await LoginPage.IfUserIsNotLogedIn());
+
+    }
 
 }

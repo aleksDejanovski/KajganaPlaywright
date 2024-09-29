@@ -20,6 +20,7 @@ namespace PlaywrightTest.Pages
         private ILocator Submit => _page.Locator("#submit-login");
 
         private ILocator SignedIn => _page.GetByText(" ace aceski");
+        private ILocator NotSignedIn => _page.GetByText("Неуспешна најава.");
 
         public async Task SubmitLogin(string username, string password)
         {
@@ -31,8 +32,9 @@ namespace PlaywrightTest.Pages
 
         public async Task <bool> IfUserIsLogedIn() => await SignedIn.IsVisibleAsync();
 
-
-
-
+        public async Task<bool> IfUserIsNotLogedIn() =>await NotSignedIn.IsVisibleAsync();
+        
+            
+        
     }
 }
